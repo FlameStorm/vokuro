@@ -1,7 +1,6 @@
-# Vökuró
+# WillMill
 
-This is a sample application for the [Phalcon Framework](https://github.com/phalcon/cphalcon).
-We expect to implement as many features as possible to showcase the framework and its potential.
+This is the WillMill project based on [Phalcon Framework](https://github.com/phalcon/cphalcon).
 
 Please write us if you have any feedback.
 
@@ -18,24 +17,27 @@ If you wish to check older versions or newer ones currently under development, p
 
 To run this application on your machine, you need at least:
 
-* >= PHP 5.5
-* >= Phalcon 3.0
+* >= PHP 5.6
+* >= Phalcon 3.2
 * Apache Web Server with `mod_rewrite enabled`, and `AllowOverride Options` (or `All`) in your `httpd.conf` or Nginx Web Server
 * Latest [Phalcon Framework](https://github.com/phalcon/cphalcon) extension installed/enabled
-* MySQL >= 5.1.5
+* MySQL >= 5.7
 
 Then you'll need to create the database and initialize schema:
 
 ```bash
-echo 'CREATE DATABASE vokuro' | mysql -u root
-cat schemas/vokuro.sql | mysql -u root vokuro
+echo 'CREATE DATABASE willmill' | mysql -u root
+cat schemas/willmill.sql | mysql -u root willmill
 ```
 
-Also you can override application config by creating `app/config/config.dev.php` (already gitignored).
+Next, create user `willmill` with all privileges for DB `willmill`.
+
+Also you must override application config by creating `app/config/config.dev.php` (already gitignored)
+and typing there real password for `willmill` user for DB connection.
 
 ### Installing Dependencies via Composer
 
-Vökuró's dependencies must be installed using Composer. Install composer in a common location or in your project:
+WillMill's dependencies must be installed using Composer. Install composer in a common location or in your project:
 
 ```bash
 curl -s http://getcomposer.org/installer | php
@@ -44,7 +46,7 @@ curl -s http://getcomposer.org/installer | php
 Run the composer installer:
 
 ```bash
-cd vokuro
+cd willmill
 php composer.phar install
 ```
 
@@ -54,9 +56,7 @@ php composer.phar install
 ## Improving this Sample
 
 Phalcon is an open source project and a volunteer effort.
-Vökuró does not have human resources fully dedicated to the maintenance of this software.
-If you want something to be improved or you want a new feature please submit a Pull Request.
 
 ## License
 
-Vökuró is open-sourced software licensed under the New BSD License.
+WillMill is proprietary software, (c) all right reserved.

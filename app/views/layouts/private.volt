@@ -6,7 +6,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      {{ link_to(null, 'class': 'brand', 'Vökuró')}}
+      {{ link_to(null, 'class': 'brand', 'WillMill')}}
         <div class="nav-collapse">
 
           <ul class="nav">
