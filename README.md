@@ -17,11 +17,11 @@ If you wish to check older versions or newer ones currently under development, p
 
 To run this application on your machine, you need at least:
 
-* >= PHP 5.5
-* >= Phalcon 3.2
+* PHP 5.5+
+* Phalcon 3.2+
 * Apache Web Server with `mod_rewrite enabled`, and `AllowOverride Options` (or `All`) in your `httpd.conf` or Nginx Web Server
 * Latest [Phalcon Framework](https://github.com/phalcon/cphalcon) extension installed/enabled
-* MariaDB >= 10.2 (or may work on MySQL >= 5.5)
+* MariaDB 10.2+ (or may work on MySQL 5.5+)
 
 Then you'll need to create the database and initialize schema:
 
