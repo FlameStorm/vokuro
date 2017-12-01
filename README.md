@@ -53,10 +53,6 @@ php composer.phar install
 **NOTE** After the installation, please ensure that the following folders have write permissions set:
 - `cache`
 
-## Improving this Sample
-
-Phalcon is an open source project and a volunteer effort.
-
 ## License
 
 WillMill is proprietary software, (c) all right reserved.
