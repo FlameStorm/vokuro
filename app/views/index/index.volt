@@ -30,13 +30,13 @@
     <div class="span4">
       <h3>Example addresses</h3>
       <address>
-        <strong>Vokuri, Inc.</strong><br>
-        456 Infinite Loop, Suite 101<br>
+        <strong>WillMill, Inc.</strong><br>
+        Moscow, Stalin str., 45<br>
         <abbr title="Phone">P:</abbr> (123) 456-7890
       </address>
       <address>
         <strong>Full Name</strong><br>
-        <a href="mailto:#">vokuro@phalconphp.com</a>
+        <a href="mailto:#">support@willmill.com</a>
       </address>
     </div>
 

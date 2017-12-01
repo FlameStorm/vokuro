@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Welcome to WillMill</title>
+		<link rel="shortcut icon" type="image/png" href="/img/favicon.png">
 		<link href="//netdna.bootstrapcdn.com/bootswatch/2.3.1/united/bootstrap.min.css" rel="stylesheet">
 		{{ stylesheet_link('css/style.css') }}
 	</head>
